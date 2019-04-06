@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/code/vuebootlar":{"type":null,"mount_options":["uid=1000","gid=1000"],"guestpath":"/home/vagrant/code/vuebootlar","hostpath":"/opt/lampp/htdocs/vuebootlar","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/opt/lampp/htdocs/vuebootlar","disabled":false,"__vagrantfile":true}}}
