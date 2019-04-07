@@ -3,10 +3,10 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Documentation</div>
+                    <div class="card-header">Plan Mjera</div>
 
                     <div class="card-body">
-                        Documsntation
+                        Plan Mjera
                     </div>
                 </div>
             </div>

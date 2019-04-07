@@ -9,6 +9,30 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+
+/**
+ * Router setup
+ */
+
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
+let routes = [
+  { path: '/dashboard', component: require('./components/Dashboard.vue').default },
+  { path: '/datacolection', component: require('./components/DataColection.vue').default },
+  { path: '/documentation', component: require('./components/Documentation.vue').default },
+  { path: '/measuresplan', component: require('./components/MeasuresPlan.vue').default },
+  { path: '/processing', component: require('./components/Processing.vue').default },
+  { path: '/workplaces', component: require('./components/WorkPlaces.vue').default },
+  
+];
+
+const router = new VueRouter({
+  mode: 'history',
+  routes // short for `routes: routes`
+});
+
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -29,5 +53,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  */
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    router
 });

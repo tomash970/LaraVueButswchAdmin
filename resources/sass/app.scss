@@ -4,15 +4,19 @@
 
 // Variables
 @import 'variables';
-
-// Variables
 @import '~bootswatch/dist/darkly/variables';
+$fa-font-path: "../webfonts";
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 @import "~bootswatch/dist/darkly/bootswatch";
 
+
+//FontAwesome
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
 
 /*!
  * Start Bootstrap - Simple Sidebar 

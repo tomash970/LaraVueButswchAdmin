@@ -26,14 +26,14 @@
 
         <!-- Sidebar -->
         <div class="bg-light" id="sidebar-wrapper">
-          <div class="sidebar-heading bg-primary">Company </div>
+          <div class="sidebar-heading bg-primary">Tvrtka </div>
           <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+            <router-link to="/dashboard" class="list-group-item list-group-item-action bg-light"><i class="fas fa-tachometer-alt"></i> Upravljačka ploča</router-link>
+            <router-link to="/datacolection" class="list-group-item list-group-item-action bg-light"><i class="fas fa-file-alt"></i> Opći podaci</router-link>
+            <router-link to="/workplaces" class="list-group-item list-group-item-action bg-light"><i class="fas fa-building"></i> Mjesta rada</router-link>
+            <router-link to="/measuresplan" class="list-group-item list-group-item-action bg-light"><i class="fas fa-book"></i> Plan mjera</router-link>
+            <router-link to="/documentation" class="list-group-item list-group-item-action bg-light"><i class="fas fa-folder-open"></i> Dokumentacija</router-link>
+            <router-link to="/processing" class="list-group-item list-group-item-action bg-light"><i class="fas fa-cogs"></i> Obrada</router-link>
           </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -43,13 +43,13 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
               <!-- <a class="navbar-brand" href="#">Navbar</a> -->
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                
               </button>
 
               <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><i class="fas fa-bars"></i> <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Features</a>
@@ -97,17 +97,10 @@
                     @endguest
                 </ul>
               </div>
-            </nav>
-
-
-
-
-
-
-           
+            </nav> 
 
             <main class="py-4">
-                @yield('content')
+                <router-view></router-view>
             </main>
 </div>
 
