@@ -37060,7 +37060,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card bg-primary" }, [
             _c("div", { staticClass: "card-header" }, [
               _vm._v("Upravljačka ploča")
             ]),
@@ -37107,7 +37107,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card bg-secondary" }, [
             _c("div", { staticClass: "card-header" }, [_vm._v("Opći podaci")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
@@ -37150,7 +37150,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card bg-success" }, [
             _c("div", { staticClass: "card-header" }, [
               _vm._v("Documentation")
             ]),
@@ -37240,7 +37240,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card bg-danger" }, [
             _c("div", { staticClass: "card-header" }, [_vm._v("Plan Mjera")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
@@ -37283,7 +37283,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card bg-warning" }, [
             _c("div", { staticClass: "card-header" }, [_vm._v("Obrada")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
@@ -37326,7 +37326,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card bg-info" }, [
             _c("div", { staticClass: "card-header" }, [_vm._v("Mjesta Rada")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
